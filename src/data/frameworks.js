@@ -1,0 +1,78 @@
+// Dados utilizados para renderizar a lista de cards.
+// Cada item possui um "id" único, usado como key no React.
+export const frameworks = [
+  {
+    id: 1,
+    nome: "React",
+    tipo: "Biblioteca",
+    criador: "Meta",
+    ano: 2013,
+    descricao: "Biblioteca para construir interfaces a partir de componentes reutilizáveis e JSX.",
+    estudadoEmAula: true,
+  },
+  {
+    id: 2,
+    nome: "Vue.js",
+    tipo: "Framework",
+    criador: "Evan You",
+    ano: 2014,
+    descricao: "Framework progressivo, com templates simples e sistema reativo de dados.",
+    estudadoEmAula: true,
+  },
+  {
+    id: 3,
+    nome: "Angular",
+    tipo: "Framework",
+    criador: "Google",
+    ano: 2016,
+    descricao: "Framework completo com TypeScript, injeção de dependências e rotas integradas.",
+    estudadoEmAula: true,
+  },
+  {
+    id: 4,
+    nome: "Next.js",
+    tipo: "Framework",
+    criador: "Vercel",
+    ano: 2016,
+    descricao: "Framework baseado em React com renderização no servidor e rotas por arquivos.",
+    estudadoEmAula: true,
+  },
+  {
+    id: 5,
+    nome: "Svelte",
+    tipo: "Framework",
+    criador: "Rich Harris",
+    ano: 2016,
+    descricao: "Compila os componentes em JavaScript puro, sem utilizar Virtual DOM.",
+    estudadoEmAula: false,
+  },
+  {
+    id: 6,
+    nome: "Tailwind CSS",
+    tipo: "CSS",
+    criador: "Adam Wathan",
+    ano: 2017,
+    descricao: "Framework CSS baseado em classes utilitárias aplicadas direto no HTML.",
+    estudadoEmAula: true,
+  },
+  {
+    id: 7,
+    nome: "Bootstrap",
+    tipo: "CSS",
+    criador: "Twitter",
+    ano: 2011,
+    descricao: "Framework CSS com grid responsivo e componentes prontos para uso.",
+    estudadoEmAula: false,
+  },
+  {
+    id: 8,
+    nome: "Vite",
+    tipo: "Ferramenta",
+    criador: "Evan You",
+    ano: 2020,
+    descricao: "Ferramenta de build rápida, utilizada para criar e executar este projeto.",
+    estudadoEmAula: true,
+  },
+];
+
+export const categorias = ["Todos", "Framework", "Biblioteca", "CSS", "Ferramenta"];
